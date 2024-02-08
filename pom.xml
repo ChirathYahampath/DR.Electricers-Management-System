@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.icet</groupId>
-    <artifactId>ElectroWorld-Management-System</artifactId>
+    <groupId>org.example</groupId>
+    <artifactId>Dr.Electricers</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -13,6 +13,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.openjfx/javafx-fxml -->
@@ -61,6 +62,9 @@
             <version>1.6.2</version>
         </dependency>
 
+
+
+
     </dependencies>
     <build>
         <plugins>
@@ -69,13 +73,13 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.8</version>
                 <configuration>
-                    <mainClass>Main</mainClass>
+                    <mainClass>AppInitializer</mainClass>
                 </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version> <!-- Use the latest version -->
+                <version>3.5.1</version><!-- Use the latest version -->
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -83,6 +87,7 @@
                             <goal>shade</goal>
                         </goals>
                         <configuration>
+
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>project-classifier</shadedClassifierName>
                             <outputFile>shade\${project.artifactId}.jar</outputFile>
@@ -99,4 +104,3 @@
     </build>
 
 </project>
-
