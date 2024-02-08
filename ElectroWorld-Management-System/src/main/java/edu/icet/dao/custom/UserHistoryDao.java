@@ -1,7 +1,7 @@
 package edu.icet.dao.custom;
 
-import dao.CrudDao;
-import entity.UserHistory;
+import edu.icet.dao.CrudDao;
+import edu.icet.entity.UserHistory;
 
 public interface UserHistoryDao extends CrudDao<UserHistory> {
 }

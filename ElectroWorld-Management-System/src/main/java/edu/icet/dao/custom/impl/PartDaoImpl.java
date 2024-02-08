@@ -1,9 +1,9 @@
 package edu.icet.dao.custom.impl;
 
-import dao.custom.PartDao;
-import dao.util.HibernateUtil;
-import db.DBConnection;
-import entity.Part;
+import edu.icet.dao.custom.PartDao;
+import edu.icet.dao.util.HibernateUtil;
+import edu.icet.db.DBConnection;
+import edu.icet.entity.Part;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

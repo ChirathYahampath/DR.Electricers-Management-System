@@ -1,8 +1,8 @@
 package edu.icet.Controller;
 
-import bo.custom.EmployeeBo;
-import bo.custom.impl.EmployeeBoImpl;
-import dto.EmployeeDto;
+import edu.icet.bo.custom.EmployeeBo;
+import edu.icet.bo.custom.impl.EmployeeBoImpl;
+import edu.icet.dto.EmployeeDto;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

@@ -1,9 +1,9 @@
 package edu.icet.dao.custom.impl;
 
-import dao.custom.OrderDetailDao;
-import dao.util.HibernateUtil;
-import dto.OrderDetailDto;
-import entity.OrderDetail;
+import edu.icet.dao.custom.OrderDetailDao;
+import edu.icet.dao.util.HibernateUtil;
+import edu.icet.dto.OrderDetailDto;
+import edu.icet.entity.OrderDetail;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

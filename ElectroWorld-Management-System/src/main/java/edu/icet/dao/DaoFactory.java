@@ -1,7 +1,7 @@
 package edu.icet.dao;
 
-import dao.custom.impl.*;
-import dao.util.DaoType;
+import edu.icet.dao.custom.impl.*;
+import edu.icet.dao.util.DaoType;
 
 public class DaoFactory {
     private  static  DaoFactory daoFactory;

@@ -1,7 +1,7 @@
 package edu.icet.dao.custom;
 
-import dao.CrudDao;
-import dto.OrderDetailDto;
+import edu.icet.dao.CrudDao;
+import edu.icet.dto.OrderDetailDto;
 
 public interface OrderDetailDao extends CrudDao<OrderDetailDto> {
 }

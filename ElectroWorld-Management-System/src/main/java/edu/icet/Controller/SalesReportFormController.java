@@ -1,14 +1,14 @@
 package edu.icet.Controller;
 
-import bo.custom.EmployeeBo;
-import bo.custom.OrderBo;
-import bo.custom.impl.EmployeeBoImpl;
-import bo.custom.impl.OrderBoImpl;
+import edu.icet.bo.custom.EmployeeBo;
+import edu.icet.bo.custom.OrderBo;
+import edu.icet.bo.custom.impl.EmployeeBoImpl;
+import edu.icet.bo.custom.impl.OrderBoImpl;
 import com.jfoenix.controls.JFXTextField;
-import dto.EmployeeDto;
-import dto.OrderDto;
-import dto.PointDto;
-import dto.SalesCordinateDto;
+import edu.icet.dto.EmployeeDto;
+import edu.icet.dto.OrderDto;
+import edu.icet.dto.PointDto;
+import edu.icet.dto.SalesCordinateDto;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;

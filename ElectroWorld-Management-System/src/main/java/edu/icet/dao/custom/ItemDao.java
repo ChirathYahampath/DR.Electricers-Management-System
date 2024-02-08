@@ -1,7 +1,7 @@
 package edu.icet.dao.custom;
 
-import dao.CrudDao;
-import entity.Item;
+import edu.icet.dao.CrudDao;
+import edu.icet.entity.Item;
 
 public interface ItemDao extends CrudDao<Item> {
 

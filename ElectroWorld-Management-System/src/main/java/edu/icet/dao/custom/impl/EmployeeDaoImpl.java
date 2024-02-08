@@ -1,8 +1,8 @@
 package edu.icet.dao.custom.impl;
 
-import dao.custom.EmployeeDao;
-import dao.util.HibernateUtil;
-import entity.Employee;
+import edu.icet.dao.custom.EmployeeDao;
+import edu.icet.dao.util.HibernateUtil;
+import edu.icet.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

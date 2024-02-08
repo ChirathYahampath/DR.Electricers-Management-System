@@ -1,8 +1,8 @@
 package edu.icet.dao.custom.impl;
 
-import dao.custom.UserHistoryDao;
-import dao.util.HibernateUtil;
-import entity.UserHistory;
+import edu.icet.dao.custom.UserHistoryDao;
+import edu.icet.dao.util.HibernateUtil;
+import edu.icet.entity.UserHistory;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

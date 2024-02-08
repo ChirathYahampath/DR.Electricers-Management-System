@@ -1,14 +1,14 @@
 package edu.icet.dao.custom.impl;
 
-import dao.DaoFactory;
-import dao.custom.OrderDao;
-import dao.custom.OrderDetailDao;
-import dao.util.DaoType;
-import dao.util.HibernateUtil;
-import db.DBConnection;
-import dto.OrderDetailDto;
-import dto.OrderDto;
-import entity.Orders;
+import edu.icet.dao.DaoFactory;
+import edu.icet.dao.custom.OrderDao;
+import edu.icet.dao.custom.OrderDetailDao;
+import edu.icet.dao.util.DaoType;
+import edu.icet.dao.util.HibernateUtil;
+import edu.icet.db.DBConnection;
+import edu.icet.dto.OrderDetailDto;
+import edu.icet.dto.OrderDto;
+import edu.icet.entity.Orders;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

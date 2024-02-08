@@ -1,16 +1,16 @@
 package edu.icet.Controller;
 
-import bo.custom.CustomerBo;
-import bo.custom.EmployeeBo;
-import bo.custom.impl.CustomerBoImpl;
-import bo.custom.impl.EmployeeBoImpl;
+import edu.icet.bo.custom.CustomerBo;
+import edu.icet.bo.custom.EmployeeBo;
+import edu.icet.bo.custom.impl.CustomerBoImpl;
+import edu.icet.bo.custom.impl.EmployeeBoImpl;
 import com.jfoenix.controls.JFXTreeTableView;
 import com.jfoenix.controls.RecursiveTreeItem;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
-import db.DBConnection;
-import dto.CustomerDto;
-import dto.EmployeeDto;
-import dto.tm.CustomerReportTm;
+import edu.icet.db.DBConnection;
+import edu.icet.dto.CustomerDto;
+import edu.icet.dto.EmployeeDto;
+import edu.icet.dto.tm.CustomerReportTm;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;

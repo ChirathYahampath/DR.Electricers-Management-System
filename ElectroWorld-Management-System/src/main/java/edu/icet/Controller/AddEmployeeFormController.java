@@ -1,14 +1,14 @@
 package edu.icet.Controller;
 
-import bo.custom.EmployeeBo;
-import bo.custom.impl.EmployeeBoImpl;
+import edu.icet.bo.custom.EmployeeBo;
+import edu.icet.bo.custom.impl.EmployeeBoImpl;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import com.jfoenix.controls.JFXTreeTableView;
 import com.jfoenix.controls.RecursiveTreeItem;
 import com.jfoenix.controls.datamodels.treetable.RecursiveTreeObject;
-import dto.EmployeeDto;
-import dto.tm.EmployeeTm;
+import edu.icet.dto.EmployeeDto;
+import edu.icet.dto.tm.EmployeeTm;
 import javafx.animation.Animation;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;

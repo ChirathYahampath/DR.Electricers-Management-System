@@ -1,6 +1,6 @@
 package edu.icet.Controller;
 
-import dto.OrderDto;
+import edu.icet.dto.OrderDto;
 
 import java.sql.SQLException;
 
