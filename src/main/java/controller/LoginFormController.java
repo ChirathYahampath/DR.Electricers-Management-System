@@ -91,12 +91,12 @@ public class LoginFormController {
         }
         if(!isSaved){
             EmployeeDto dto=new EmployeeDto();
-            dto.setName("Thiwanka");
-            dto.setContact("0772469072");
-            dto.setEmail("thiwankar2003@gmail.com");
-            dto.setPassword("ThiwankaReiss");
+            dto.setName("Chirath");
+            dto.setContact("0712887452");
+            dto.setEmail("chirathyahampath99@gmail.com");
+            dto.setPassword("1234");
             dto.setPosition("Admin");
-            dto.setDescription("Hi I'm Thiwanka .I'm the System administrator of E and E Shop. I am highly experience in this industry. ");
+            dto.setDescription("Hi I'm Chirath .I'm the System administrator of E and E Shop. I am highly experience in this industry. ");
             employeeBo.save(dto);
         }
     }
@@ -195,8 +195,8 @@ public class LoginFormController {
 
     private void sendEmail(String email) {
         // Sender's email address and password
-        String senderEmail = "prelanr@gmail.com";
-        String senderPassword = "ibmn kdvy pobz wuvx ";
+        String senderEmail = "chirathyahampathbro@gmail.com";
+        String senderPassword = "lkxz hcwr cktu qdzx ";
 
         // Recipient's email address
         String recipientEmail = email;
