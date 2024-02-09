@@ -570,7 +570,7 @@ public class AddEmployeeFormController {
         return false;
     }
 
-    // Using Chat gpt
+
     public static boolean isValidEmail(String email) {
         // Define the regular expression for a valid email address
         String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\.[a-zA-Z0-9_+&*-]+)*@(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,7}$";

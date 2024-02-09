@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
+
 <GridPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="671.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
    <columnConstraints>
       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -155,7 +164,7 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <JFXButton fx:id="addBtn" buttonType="RAISED" onAction="#addOnAction" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" style="-fx-background-color: #f9aa33;" text="Add" textFill="WHITE" GridPane.columnIndex="1" />
+                        <JFXButton fx:id="addBtn" buttonType="RAISED" onAction="#addOnAction" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" style="-fx-background-color: #000000;" text="Add" textFill="WHITE" GridPane.columnIndex="1" />
                      </children>
                   </GridPane>
                   <GridPane GridPane.columnIndex="7" GridPane.rowIndex="1">
@@ -168,8 +177,8 @@
                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                      </rowConstraints>
                      <children>
-                        <JFXButton fx:id="updateBtn" buttonType="RAISED" onAction="#updateBtnOnAction" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" style="-fx-background-color: #f9aa33;" text="Update" textFill="WHITE" />
-                        <JFXButton fx:id="reloadBtn" buttonType="RAISED" onAction="#reloadBtnOnAction" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" style="-fx-background-color: #f9aa33;" text="Reload" textFill="WHITE" GridPane.columnIndex="2" />
+                        <JFXButton fx:id="updateBtn" buttonType="RAISED" onAction="#updateBtnOnAction" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" style="-fx-background-color: #000000;" text="Update" textFill="WHITE" />
+                        <JFXButton fx:id="reloadBtn" buttonType="RAISED" onAction="#reloadBtnOnAction" prefHeight="25.0" prefWidth="71.0" ripplerFill="WHITE" style="-fx-background-color: #000000;" text="Reload" textFill="WHITE" GridPane.columnIndex="2" />
                      </children>
                   </GridPane>
                   <GridPane GridPane.columnIndex="1" GridPane.rowIndex="1">
