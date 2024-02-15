@@ -174,7 +174,7 @@
                 <RowConstraints maxHeight="19.33331298828125" minHeight="6.6666259765625" prefHeight="6.6666259765625" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <JFXButton buttonType="RAISED" onAction="#printOnAction" prefHeight="25.0" prefWidth="99.0" ripplerFill="WHITE" style="-fx-background-color: #f9aa33;" text="Print" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <JFXButton buttonType="RAISED" onAction="#printOnAction" prefHeight="25.0" prefWidth="99.0" ripplerFill="WHITE" style="-fx-background-color: black;" text="Print" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font size="11.0" />
                      </font>
